@@ -1,4 +1,4 @@
-//usePlugin 'war'
+usePlugin 'war'
 //usePlugin 'jetty'
 usePlugin 'java'
 usePlugin 'eclipse'
@@ -24,13 +24,23 @@ dependencies {
 	compile "org.hibernate:hibernate-annotations:3.4.0.GA"
 	compile "javassist:javassist:3.4.GA@jar"
 	//memcached
-	compile "spy:memcached:2.4rc1"
+	compile "spy:memcached:2.4.2"
 	
 	//ehcache
 	compile "net.sf.ehcache:ehcache-core:2.0.0"
 	
 	//ehcache terracotta
 	compile "net.sf.ehcache:ehcache-terracotta:1.8.0"
+	
+	//spring
+	//spring webmvc
+	compile "org.springframework:spring-webmvc:3.0.1.RELEASE"
+	
+	//spring orm
+	compile "org.springframework:spring-orm:3.0.1.RELEASE"
+	
+	//mysql
+	runtime "mysql:mysql-connector-java:5.1.12"
 	
 	//compile "org.hibernate:hiberate"
 	runtime ":jconn2:1.0"

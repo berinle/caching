@@ -26,6 +26,8 @@ public class MemcachedClientSample
 				c.asyncGet("someKey");
 				
 				System.out.println("done");
+				
+				c.shutdown();
 		} catch(Exception e){
 			e.printStackTrace();
 		}
