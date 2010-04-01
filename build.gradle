@@ -1,5 +1,5 @@
 usePlugin 'war'
-//usePlugin 'jetty'
+usePlugin 'jetty'
 usePlugin 'java'
 usePlugin 'eclipse'
 
@@ -30,7 +30,7 @@ dependencies {
 	compile "net.sf.ehcache:ehcache-core:2.0.0"
 	
 	//ehcache terracotta
-	compile "net.sf.ehcache:ehcache-terracotta:1.8.0"
+	compile "net.sf.ehcache:ehcache-terracotta:2.0.0"
 	
 	//spring
 	//spring webmvc
@@ -48,7 +48,9 @@ dependencies {
 	//compile "org.hibernate:hiberate"
 	runtime ":jconn2:1.0"
 	//compile group: 'log4j', name: 'log4j', version: '1.2.15', transitive: false
-	//providedCompile "javax.servlet:servlet-api:2.5"	
+	//providedCompile "javax.servlet:servlet-api:2.5"
+	
+	runtime "jstl:jstl:1.1.2"	
 }
 
 task init(description: 'Initialize project directory structure') << {

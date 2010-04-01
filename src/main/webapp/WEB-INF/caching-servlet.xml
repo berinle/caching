@@ -15,6 +15,8 @@
 		http://www.springframework.org/schema/tx
 		http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
 	
+	<tx:annotation-driven/>
+	
 	<context:property-placeholder location="classpath:caching.properties"/>
 	
 	<context:component-scan base-package="net.berinle.caching"/>

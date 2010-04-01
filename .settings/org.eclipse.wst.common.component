@@ -1,118 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project-modules id="moduleCoreId" project-version="1.5.0">
-  <wb-module deploy-name="caching">
-    <property name="context-root" value="caching"/>
+  <wb-module deploy-name="caching2">
+    <property name="context-root" value="caching2"/>
     <wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
     <wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
     <wb-resource deploy-path="/" source-path="src/main/webapp"/>
     <property name="java-output-path" value="build/classes/main"/>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/antlr/antlr/jars/antlr-2.7.6.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/antlr/antlr/jars/antlr-2.7.6.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/commons-collections/commons-collections/jars/commons-collections-3.1.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/commons-collections/commons-collections/jars/commons-collections-3.1.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/javassist/javassist/jars/javassist-3.4.GA.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/javassist/javassist/jars/javassist-3.4.GA.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/javax.transaction/jta/jars/jta-1.1.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/javax.servlet/jstl/jars/jstl-1.1.2.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/javax.validation/com.springsource.javax.validation/jars/com.springsource.javax.validation-1.0.0.GA.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/javax.transaction/jta/jars/jta-1.1.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/log4j/log4j/jars/log4j-1.2.15.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/javax.validation/com.springsource.javax.validation/jars/com.springsource.javax.validation-1.0.0.GA.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.12.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/log4j/log4j/jars/log4j-1.2.15.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.0.0.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.12.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/net.sf.ehcache/ehcache-terracotta/jars/ehcache-terracotta-1.8.0.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.0.0.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.apache.lucene/lucene-core/jars/lucene-core-2.4.0.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/net.sf.ehcache/ehcache-terracotta/jars/ehcache-terracotta-1.8.0.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.hibernate/ejb3-persistence/jars/ejb3-persistence-1.0.2.GA.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.apache.lucene/lucene-core/jars/lucene-core-2.4.0.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.hibernate/hibernate-annotations/jars/hibernate-annotations-3.4.0.GA.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.hibernate/ejb3-persistence/jars/ejb3-persistence-1.0.2.GA.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.hibernate/hibernate-commons-annotations/jars/hibernate-commons-annotations-3.1.0.GA.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.hibernate/hibernate-annotations/jars/hibernate-annotations-3.4.0.GA.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.hibernate/hibernate-core/jars/hibernate-core-3.3.1.GA.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.hibernate/hibernate-commons-annotations/jars/hibernate-commons-annotations-3.1.0.GA.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.hibernate/hibernate-search/jars/hibernate-search-3.1.0.GA.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.hibernate/hibernate-core/jars/hibernate-core-3.3.1.GA.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-3.1.0.GA.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.hibernate/hibernate-search/jars/hibernate-search-3.1.0.GA.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.5.8.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-3.1.0.GA.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.5.2.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.5.8.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.springframework/spring-aop/jars/spring-aop-3.0.1.RELEASE.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.5.2.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.springframework/spring-asm/jars/spring-asm-3.0.1.RELEASE.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.springframework/spring-aop/jars/spring-aop-3.0.1.RELEASE.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.springframework/spring-beans/jars/spring-beans-3.0.1.RELEASE.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.springframework/spring-asm/jars/spring-asm-3.0.1.RELEASE.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.springframework/spring-context/jars/spring-context-3.0.1.RELEASE.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.springframework/spring-beans/jars/spring-beans-3.0.1.RELEASE.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.springframework/spring-core/jars/spring-core-3.0.1.RELEASE.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.springframework/spring-context/jars/spring-context-3.0.1.RELEASE.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.springframework/spring-expression/jars/spring-expression-3.0.1.RELEASE.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.springframework/spring-core/jars/spring-core-3.0.1.RELEASE.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.springframework/spring-jdbc/jars/spring-jdbc-3.0.1.RELEASE.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.springframework/spring-expression/jars/spring-expression-3.0.1.RELEASE.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.springframework/spring-orm/jars/spring-orm-3.0.1.RELEASE.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.springframework/spring-jdbc/jars/spring-jdbc-3.0.1.RELEASE.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.springframework/spring-tx/jars/spring-tx-3.0.1.RELEASE.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.springframework/spring-orm/jars/spring-orm-3.0.1.RELEASE.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.springframework/spring-web/jars/spring-web-3.0.1.RELEASE.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.springframework/spring-tx/jars/spring-tx-3.0.1.RELEASE.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/org.springframework/spring-webmvc/jars/spring-webmvc-3.0.1.RELEASE.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.springframework/spring-web/jars/spring-web-3.0.1.RELEASE.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/p6spy/p6spy/jars/p6spy-1.3.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/org.springframework/spring-webmvc/jars/spring-webmvc-3.0.1.RELEASE.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/spy/memcached/jars/memcached-2.4.2.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/p6spy/p6spy/jars/p6spy-1.3.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/.gradle/cache/xml-apis/xml-apis/jars/xml-apis-1.0.b2.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/spy/memcached/jars/memcached-2.4.2.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
-    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib///Users/bayo/workspace/caching/lib/jconn2-1.0.jar">
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/xml-apis/xml-apis/jars/xml-apis-1.0.b2.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//D:/gitrepos/caching2/lib/jconn2-1.0.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
   </wb-module>
