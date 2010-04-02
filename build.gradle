@@ -1,7 +1,12 @@
-usePlugin 'war'
+/*usePlugin 'war'
 usePlugin 'jetty'
 usePlugin 'java'
-usePlugin 'eclipse'
+usePlugin 'eclipse'*/
+
+apply plugin: 'war'
+apply plugin: 'jetty'
+apply plugin: 'java'
+apply plugin: 'eclipse'
 
 group = "caching"
 version = "1.0"

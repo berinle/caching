@@ -1,7 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<c:url value="/add"/>Add Employee
+<a href="<c:url value="/app/add"/>">Add Employee</a>
 
+<h2>List of Employees</h2>
 <table>
 <c:forEach items="${employees}" var="emp">
 	<tr>

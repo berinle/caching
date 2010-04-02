@@ -17,6 +17,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 		return employeeDao.getEmployees();		
 	}
 
+	@Transactional(readOnly=false)
 	public void addEmployee(Employee employee) {
 		employeeDao.addEmployee(employee);
 	}

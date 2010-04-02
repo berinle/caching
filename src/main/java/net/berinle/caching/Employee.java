@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Version;
 
 @Entity
 public class Employee {
@@ -15,9 +16,12 @@ public class Employee {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long id;
 	
+	@Version
+	@Column(name="version") private long version;
+	
 	@Column(name="fname") private String firstName;
 	@Column(name="lname") private String lastName;
-	private Date hireDate;
+	@Column(name="hire_date") private Date hireDate;
 	@Column(name="emp_no") private String employeeNo;
 	
 	public Employee(){}
@@ -58,6 +62,11 @@ public class Employee {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	
+	public long getVersion() {
+		return version;
+	}
+	public void setVersion(long version) {
+		this.version = version;
+	}
 	
 }
