@@ -19,6 +19,9 @@
     <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>
+    <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/displaytag/displaytag/jars/displaytag-1.2.jar">
+      <dependency-type>uses</dependency-type>
+    </dependent-module>
     <dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//C:/Documents and Settings/berinle/.gradle/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar">
       <dependency-type>uses</dependency-type>
     </dependent-module>

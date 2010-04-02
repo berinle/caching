@@ -24,6 +24,9 @@
     <property name="cache.provider_class">net.sf.ehcache.hibernate.EhCacheProvider</property>
     <property name="net.sf.ehcache.configurationResourceName">ehcache.xml</property>
     
+    <!-- Enable the query cache  -->
+    <property name="cache.use_query_cache">true</property>
+    
 	<mapping class="net.berinle.caching.Employee" />
 	
 	<class-cache usage="read-write" class="net.berinle.caching.Employee"/>

@@ -12,7 +12,9 @@ public class EmployeeHibernateDao implements EmployeeDao {
 	@Autowired SessionFactory sessionFactory;
 	
 	public List<Employee> getEmployees() {
-		return sessionFactory.getCurrentSession().createCriteria(Employee.class).list();
+		return sessionFactory.getCurrentSession().createCriteria(Employee.class)
+		.setCacheable(true)
+		.list();
 	}
 
 	public void addEmployee(Employee employee) {

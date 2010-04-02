@@ -1,12 +1,16 @@
-/*usePlugin 'war'
+//for Gradle < 0.9
+usePlugin 'war'
 usePlugin 'jetty'
 usePlugin 'java'
-usePlugin 'eclipse'*/
+usePlugin 'eclipse'
 
+//for Gradle 0.9+
+/*
 apply plugin: 'war'
 apply plugin: 'jetty'
 apply plugin: 'java'
 apply plugin: 'eclipse'
+*/
 
 group = "caching"
 version = "1.0"
@@ -57,7 +61,10 @@ dependencies {
 	//compile group: 'log4j', name: 'log4j', version: '1.2.15', transitive: false
 	//providedCompile "javax.servlet:servlet-api:2.5"
 	
-	runtime "jstl:jstl:1.1.2"	
+	runtime "jstl:jstl:1.1.2"
+	
+	//display tag
+	runtime "displaytag:displaytag:1.2@jar"		
 }
 
 task init(description: 'Initialize project directory structure') << {

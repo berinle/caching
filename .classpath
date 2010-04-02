@@ -9,6 +9,7 @@
   <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/commons-collections/commons-collections/jars/commons-collections-3.1.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar"/>
+  <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/displaytag/displaytag/jars/displaytag-1.2.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/javassist/javassist/jars/javassist-3.4.GA.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/javax.servlet/jstl/jars/jstl-1.1.2.jar"/>
