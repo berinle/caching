@@ -15,4 +15,8 @@ public class EmployeeHibernateDao implements EmployeeDao {
 		return sessionFactory.getCurrentSession().createCriteria(Employee.class).list();
 	}
 
+	public void addEmployee(Employee employee) {
+		sessionFactory.getCurrentSession().merge(employee);
+	}
+
 }

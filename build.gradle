@@ -6,6 +6,8 @@ usePlugin 'eclipse'
 group = "caching"
 version = "1.0"
 
+configurations.compile.transitive = true
+
 repositories {
 	flatDir(dirs: "$rootDir/lib")
 	mavenCentral()

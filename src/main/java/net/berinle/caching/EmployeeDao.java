@@ -4,4 +4,6 @@ import java.util.List;
 
 public interface EmployeeDao {
 	List<Employee> getEmployees();
+
+	void addEmployee(Employee employee);
 }

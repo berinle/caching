@@ -1,5 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<c:url value="/add"/>Add Employee
+
 <table>
 <c:forEach items="${employees}" var="emp">
 	<tr>

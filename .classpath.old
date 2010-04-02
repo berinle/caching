@@ -11,6 +11,7 @@
   <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/javassist/javassist/jars/javassist-3.4.GA.jar"/>
+  <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/javax.servlet/jstl/jars/jstl-1.1.2.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/javax.transaction/jta/jars/jta-1.1.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/javax.validation/com.springsource.javax.validation/jars/com.springsource.javax.validation-1.0.0.GA.jar"/>
   <classpathentry kind="lib" path="C:/Documents and Settings/berinle/.gradle/cache/log4j/log4j/jars/log4j-1.2.15.jar"/>

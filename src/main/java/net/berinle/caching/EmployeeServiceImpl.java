@@ -16,4 +16,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 		//TODO: check cache first before calling DAO
 		return employeeDao.getEmployees();		
 	}
+
+	public void addEmployee(Employee employee) {
+		employeeDao.addEmployee(employee);
+	}
 }
