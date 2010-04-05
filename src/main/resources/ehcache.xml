@@ -10,6 +10,7 @@
       <terracotta/>
     </defaultCache>
 
+	<!-- 
 	<cache name="net.berinle.caching.Employee"
     	maxElementsInMemory="10000"
         eternal="false"
@@ -18,7 +19,7 @@
         overflowToDisk="false">
 		<terracotta/>
 	</cache>
-    
+     -->
   <!-- integrate with terracotta -->
   <terracottaConfig url="localhost:9510"/>
   

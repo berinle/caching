@@ -38,7 +38,7 @@ public class EmployeeHibernateDao implements EmployeeDao {
 		long totalSize = (Long)sessionFactory.getCurrentSession().createQuery("select count(*) from Employee").uniqueResult();
 		
 		Map map = new HashMap();
-		map.put("list", list);
+		map.put("employees", list);
 		map.put("totalSize", totalSize);
 		return map;
 	}

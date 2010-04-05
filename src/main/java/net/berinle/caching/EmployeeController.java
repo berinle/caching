@@ -1,6 +1,7 @@
 package net.berinle.caching;
 
 import java.util.Date;
+import java.util.Enumeration;
 import java.util.List;
 import java.util.Map;
 
@@ -43,11 +44,18 @@ public class EmployeeController {
 		int pageSize = 100;
 		String tableId = "employee_tbl";
 		
-		startIndex = (Integer.parseInt(request.getParameter((new ParamEncoder(tableId).encodeParameterName(TableTagParameters.PARAMETER_PAGE)))) - 1) * pageSize;
+		String pgParam = new ParamEncoder(tableId).encodeParameterName(TableTagParameters.PARAMETER_PAGE);
+		String pgValue = request.getParameter(pgParam);
+		if(pgValue != null){
+			startIndex = Integer.parseInt(pgValue) * pageSize;
+		}		
 		
 		Map results = employeeService.getEmployees(startIndex);
 		List<Employee> employees = (List<Employee>) results.get("employees");
 		long totalSize = (Long) results.get("totalSize");
+		
+		log.debug("employees : " + employees.size());
+		log.debug("totalSize: " + totalSize);
 		
 		model.addAttribute("employees", employees);		
 		model.addAttribute("totalSize", new Long(totalSize).intValue());

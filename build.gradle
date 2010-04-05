@@ -59,14 +59,14 @@ dependencies {
 	//compile "org.hibernate:hiberate"
 	runtime ":jconn2:1.0"
 	//compile group: 'log4j', name: 'log4j', version: '1.2.15', transitive: false
-	//providedCompile "javax.servlet:servlet-api:2.5"
+	providedCompile "javax.servlet:servlet-api:2.5"
 	
 	runtime "jstl:jstl:1.1.2"
 	
 	//display tag
-	runtime "displaytag:displaytag:1.2@jar"		
+	providedCompile "displaytag:displaytag:1.2@jar"		
 	
-	providedRuntime "org.apache.tomcat:servlet-api:6.0.20"
+	//providedRuntime "org.apache.tomcat:servlet-api:6.0.20"
 }
 
 task init(description: 'Initialize project directory structure') << {
