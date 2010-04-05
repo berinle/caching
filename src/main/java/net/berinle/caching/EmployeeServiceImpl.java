@@ -1,6 +1,7 @@
 package net.berinle.caching;
 
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,5 +21,9 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Transactional(readOnly=false)
 	public void addEmployee(Employee employee) {
 		employeeDao.addEmployee(employee);
+	}
+
+	public Map getEmployees(int startIndex) {
+		return employeeDao.getEmployees(startIndex);
 	}
 }

@@ -2,8 +2,13 @@ package net.berinle.caching;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
 
 import org.apache.log4j.Logger;
+import org.displaytag.tags.TableTagParameters;
+import org.displaytag.util.ParamEncoder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -22,11 +27,30 @@ public class EmployeeController {
 	@Autowired private DatePropertyEditor dateEditor;
 	
 	@RequestMapping(value="/paging", method=RequestMethod.GET)
-	public void paging(Model model){
+	public void paging(Model model, HttpServletRequest request){
 	
 		log.debug("paging called.");
-		List<Employee> employees = employeeService.getEmployees();
+		int startIndex = 0;
+		/*Enumeration en = request.getParameterNames();
+		while(en.hasMoreElements()){			
+			String param = (String)en.nextElement();
+			if(param.startsWith("d-")){
+				startIndex = Integer.parseInt(request.getParameter(param.trim()));
+			}
+			
+		}*/
+		
+		int pageSize = 100;
+		String tableId = "employee_tbl";
+		
+		startIndex = (Integer.parseInt(request.getParameter((new ParamEncoder(tableId).encodeParameterName(TableTagParameters.PARAMETER_PAGE)))) - 1) * pageSize;
+		
+		Map results = employeeService.getEmployees(startIndex);
+		List<Employee> employees = (List<Employee>) results.get("employees");
+		long totalSize = (Long) results.get("totalSize");
+		
 		model.addAttribute("employees", employees);		
+		model.addAttribute("totalSize", new Long(totalSize).intValue());
 	}
 	
 	@RequestMapping(value="/add", method=RequestMethod.GET)

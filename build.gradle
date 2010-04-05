@@ -65,6 +65,8 @@ dependencies {
 	
 	//display tag
 	runtime "displaytag:displaytag:1.2@jar"		
+	
+	providedRuntime "org.apache.tomcat:servlet-api:6.0.20"
 }
 
 task init(description: 'Initialize project directory structure') << {

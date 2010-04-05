@@ -19,7 +19,7 @@
  --%>
  
 <h2>List of Employees</h2>
-<display:table name="${employees}" id="emp" pagesize="100" requestURI="${requestURI}" sort="list">
+<display:table name="${employees}" id="employee_tbl" pagesize="100" requestURI="${requestURI}" sort="list" partialList="true" size="${totalSize}">
 	<display:column title="Employee ID" property="id"/>
 	<display:column title="Firstname" sortable="true" property="firstName"/>
 	<display:column title="Lastname" sortable="true" property="lastName"/>
