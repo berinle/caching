@@ -9,4 +9,5 @@ public interface EmployeeDao {
 	void addEmployee(Employee employee);
 
 	Map getEmployees(int startIndex);
+	Map getEmployeesManual(int startIndex);
 }

@@ -1,5 +1,6 @@
 package net.berinle.caching;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -13,6 +14,8 @@ import org.springframework.stereotype.Repository;
 public class EmployeeHibernateDao implements EmployeeDao {
 
 	private static Logger log = Logger.getLogger(EmployeeHibernateDao.class);
+	
+	public static int BATCH_SIZE = 100;
 	
 	@Autowired SessionFactory sessionFactory;
 	
@@ -40,6 +43,29 @@ public class EmployeeHibernateDao implements EmployeeDao {
 		Map map = new HashMap();
 		map.put("employees", list);
 		map.put("totalSize", totalSize);
+		return map;
+	}
+
+	public Map getEmployeesManual(int startIndex) {
+		List<Employee> list =  sessionFactory.getCurrentSession().createCriteria(Employee.class)
+		.setCacheable(true)
+		.list();
+		
+		int start = startIndex-1;
+		int end = start + BATCH_SIZE;
+		
+		if(end > list.size()){
+			end = list.size();
+		}
+		
+		List<Employee> temp = list.subList(start,end);
+		
+		List subList = new ArrayList();
+		subList.addAll(temp);
+		
+		Map map = new HashMap();
+		map.put("employees", subList);
+		map.put("totalSize", new Long(list.size()));
 		return map;
 	}
 

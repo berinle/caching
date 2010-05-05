@@ -31,7 +31,8 @@ public class EmployeeController {
 	public void paging(Model model, HttpServletRequest request){
 	
 		log.debug("paging called.");
-		int startIndex = 0;
+		//int startIndex = 0;
+		int startIndex = 1;
 		/*Enumeration en = request.getParameterNames();
 		while(en.hasMoreElements()){			
 			String param = (String)en.nextElement();

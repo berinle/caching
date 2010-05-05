@@ -24,6 +24,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	}
 
 	public Map getEmployees(int startIndex) {
-		return employeeDao.getEmployees(startIndex);
+		//return employeeDao.getEmployees(startIndex);
+		return employeeDao.getEmployeesManual(startIndex);
 	}
 }
